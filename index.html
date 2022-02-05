@@ -51,7 +51,7 @@
 <section class="hero">
     <div class="conteiner">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="btn-hero">Заказать услугу</button>
+        <button type="button " class="btn-hero" data-modal-open>Заказать услугу</button>
     </div>
 </section>
 
@@ -384,6 +384,16 @@
         </div>
     </div>
 </footer>
+
+<!-- Modal Window -->
+<div class="backdrop is-hidden" data-modal>
+    <div class="window">
+        <button class="close" data-modal-close>
+            <img class="close__icon" src="./images/close.svg" alt="Крестик" width="30px">
+        </button>
+    </div>
+</div>
+<script src="./js/modal.js"></script>
 
 </body>
 
