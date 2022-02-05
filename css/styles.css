@@ -447,14 +447,14 @@ svg {
   height: 44px;
 
   border-radius: 50px;
-  transition: background-color var(--transitio-duration) var(--trasition-timing-function),
-    fill var(--transitio-duration) var(--trasition-timing-function);
+  transition: background-color var(--transitio-duration) var(--trasition-timing-function);
 }
 .link-icon {
   display: inline-block;
   fill: var(--icon-color);
   width: 20px;
   height: 20px;
+  transition: fill var(--transitio-duration) var(--trasition-timing-function);
 }
 .soc-item:hover .team-link {
   background-color: var(--current-item-color);
@@ -570,7 +570,9 @@ svg {
   letter-spacing: 0.03em;
   cursor: pointer;
 
-  transition: background-color var(--transitio-duration) var(--trasition-timing-function);
+  transition: background-color var(--transitio-duration) var(--trasition-timing-function),
+    coloro var(--transitio-duration) var(--trasition-timing-function),
+    box-shadow var(--transitio-duration) var(--trasition-timing-function);
 }
 .filt-btn:hover,
 .filt-btn:focus,
@@ -613,7 +615,8 @@ svg {
   line-height: 1.56;
   color: var(--primary-white-color);
   background-color: rgba(33, 150, 243, 0.9);
-  transition: transform var(--transitio-duration) var(--trasition-timing-function);
+  transition: transform var(--transitio-duration) var(--trasition-timing-function),
+    box-shadow var(--transitio-duration) var(--trasition-timing-function);
 }
 .portfolio-link:hover .overlay {
   transform: translateY(0%);
