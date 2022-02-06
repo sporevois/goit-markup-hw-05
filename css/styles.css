@@ -1,18 +1,3 @@
-/* палитра
-цвет логотипа, фон кнопки, активная ссылка навигации, 
-ховер мэйла (синий) #2196F3
-фон Button (Hover) (оттенок синего) #188CE8
-текст кнопки, заголовок героя  (белый) #FFFFFF 
-+ фон секции-героя и футера (темный) #2F303A
-+ основной цвет текста (черный) #212121
-цвет текста в параграфах, телефон и мэйл в хедере (серый) #757575
-цвет фона иконок наша команда (белый) #FFFFFF
-цвет фона секции наша команда #F5F4FA
-Портфолио:
-фон кнопки фильтра #F5F4FA
-+цвет мэйла и тел в футере  rgba(255, 255, 255, 0.6);
-
-*/
 :root {
   --primary-white-color: #ffffff;
   --dark-bg-color: #2f303a;
@@ -571,7 +556,7 @@ svg {
   cursor: pointer;
 
   transition: background-color var(--transitio-duration) var(--trasition-timing-function),
-    coloro var(--transitio-duration) var(--trasition-timing-function),
+    color var(--transitio-duration) var(--trasition-timing-function),
     box-shadow var(--transitio-duration) var(--trasition-timing-function);
 }
 .filt-btn:hover,
